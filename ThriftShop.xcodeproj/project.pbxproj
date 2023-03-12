@@ -12,6 +12,7 @@
 		28ECDD7629BE0C0B003F8A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28ECDD7529BE0C0B003F8A83 /* Assets.xcassets */; };
 		28ECDD7929BE0C0B003F8A83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28ECDD7829BE0C0B003F8A83 /* Preview Assets.xcassets */; };
 		28ECDD8129BE10A2003F8A83 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDD8029BE10A2003F8A83 /* Product.swift */; };
+		28ECDD8429BE160C003F8A83 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDD8329BE160C003F8A83 /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		28ECDD7529BE0C0B003F8A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28ECDD7829BE0C0B003F8A83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28ECDD8029BE10A2003F8A83 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		28ECDD8329BE160C003F8A83 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				28ECDD7129BE0C09003F8A83 /* ThriftShopApp.swift */,
-				28ECDD7329BE0C09003F8A83 /* ContentView.swift */,
+				28ECDD8529BE1C74003F8A83 /* Views */,
 				28ECDD7F29BE108C003F8A83 /* Models */,
+				28ECDD8229BE15D9003F8A83 /* Components */,
 				28ECDD7529BE0C0B003F8A83 /* Assets.xcassets */,
 				28ECDD7729BE0C0B003F8A83 /* Preview Content */,
 			);
@@ -76,6 +79,22 @@
 				28ECDD8029BE10A2003F8A83 /* Product.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		28ECDD8229BE15D9003F8A83 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				28ECDD8329BE160C003F8A83 /* ProductCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		28ECDD8529BE1C74003F8A83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28ECDD7329BE0C09003F8A83 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +170,7 @@
 				28ECDD7429BE0C09003F8A83 /* ContentView.swift in Sources */,
 				28ECDD7229BE0C09003F8A83 /* ThriftShopApp.swift in Sources */,
 				28ECDD8129BE10A2003F8A83 /* Product.swift in Sources */,
+				28ECDD8429BE160C003F8A83 /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
