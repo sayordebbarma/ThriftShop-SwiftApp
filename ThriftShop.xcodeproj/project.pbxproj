@@ -16,6 +16,7 @@
 		28ECDD8729BE28CE003F8A83 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDD8629BE28CE003F8A83 /* CartButton.swift */; };
 		28F3C15729BF59BB00857F9E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C15629BF59BB00857F9E /* CartView.swift */; };
 		28F3C15929BF5DE800857F9E /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C15829BF5DE800857F9E /* CartManager.swift */; };
+		28F3C15B29BF634000857F9E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C15A29BF634000857F9E /* ProductRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		28ECDD8629BE28CE003F8A83 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		28F3C15629BF59BB00857F9E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		28F3C15829BF5DE800857F9E /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		28F3C15A29BF634000857F9E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				28ECDD8329BE160C003F8A83 /* ProductCard.swift */,
 				28ECDD8629BE28CE003F8A83 /* CartButton.swift */,
+				28F3C15A29BF634000857F9E /* ProductRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				28ECDD7429BE0C09003F8A83 /* ContentView.swift in Sources */,
 				28F3C15929BF5DE800857F9E /* CartManager.swift in Sources */,
 				28ECDD7229BE0C09003F8A83 /* ThriftShopApp.swift in Sources */,
+				28F3C15B29BF634000857F9E /* ProductRow.swift in Sources */,
 				28ECDD8129BE10A2003F8A83 /* Product.swift in Sources */,
 				28ECDD8429BE160C003F8A83 /* ProductCard.swift in Sources */,
 				28ECDD8729BE28CE003F8A83 /* CartButton.swift in Sources */,

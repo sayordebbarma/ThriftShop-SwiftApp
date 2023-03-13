@@ -15,7 +15,7 @@ struct Product: Identifiable {
 }
 
 var productList = [
-    Product(name: "Blue stripped sweatshirt", image: "clothes1", price: 1499),
+    Product(name: "Stripped sweatshirt", image: "clothes1", price: 1499),
     Product(name: "Cream shirt", image: "clothes2", price: 1499),
     Product(name: "Blue shirt", image: "clothes3", price: 1399),
     Product(name: "Green sweatshirt", image: "clothes4", price: 1199),
@@ -30,6 +30,6 @@ var productList = [
     Product(name: "Cream cardigan", image: "clothes13", price: 799),
     Product(name: "Deep blue jacket", image: "clothes14", price: 499),
     Product(name: "Stripped sweater", image: "clothes15", price: 1599),
-    Product(name: "Brown stripped sweatshirt", image: "clothes16", price: 1499),
+    Product(name: "Stripped sweatshirt", image: "clothes16", price: 1499),
 ]
 
