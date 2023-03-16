@@ -23,7 +23,11 @@ struct CartView: View {
                     Text("₹ \(cartManager.total).00")
                         .bold()
                 }
-                .padding(.top)
+                .padding()
+                
+                PaymentButton(action: {})
+                    .padding()
+                
             } else {
                 Text("Your cart is empty")
             }

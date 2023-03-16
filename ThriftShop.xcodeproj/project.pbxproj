@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		288D93A829C359DB00FB6CB1 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D93A729C359DB00FB6CB1 /* PaymentButton.swift */; };
 		28ECDD7229BE0C09003F8A83 /* ThriftShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDD7129BE0C09003F8A83 /* ThriftShopApp.swift */; };
 		28ECDD7429BE0C09003F8A83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDD7329BE0C09003F8A83 /* ContentView.swift */; };
 		28ECDD7629BE0C0B003F8A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28ECDD7529BE0C0B003F8A83 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		288D93A729C359DB00FB6CB1 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 		28ECDD6E29BE0C09003F8A83 /* ThriftShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThriftShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ECDD7129BE0C09003F8A83 /* ThriftShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThriftShopApp.swift; sourceTree = "<group>"; };
 		28ECDD7329BE0C09003F8A83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				28ECDD8329BE160C003F8A83 /* ProductCard.swift */,
 				28ECDD8629BE28CE003F8A83 /* CartButton.swift */,
 				28F3C15A29BF634000857F9E /* ProductRow.swift */,
+				288D93A729C359DB00FB6CB1 /* PaymentButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288D93A829C359DB00FB6CB1 /* PaymentButton.swift in Sources */,
 				28F3C15729BF59BB00857F9E /* CartView.swift in Sources */,
 				28ECDD7429BE0C09003F8A83 /* ContentView.swift in Sources */,
 				28F3C15929BF5DE800857F9E /* CartManager.swift in Sources */,
